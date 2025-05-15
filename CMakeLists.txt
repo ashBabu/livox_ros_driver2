@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.14)
 project(livox_ros_driver2)
 
-add_subdirectory(livox_sdk)
+add_subdirectory(livox_sdk2)
 add_library(liblivox_sdk ALIAS livox_lidar_sdk_shared)
 
 include_directories(
   include
-  ${CMAKE_CURRENT_SOURCE_DIR}/livox_sdk/include
+  ${CMAKE_CURRENT_SOURCE_DIR}/livox_sdk2/include
 )
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
