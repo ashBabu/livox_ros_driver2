@@ -1,3 +1,9 @@
+### Main changes.
+This is a ROS2 Jazzy version compatible with `colcon build`. The `livox_sdk` is added as a submodule and can be pulled using the `--recurse-submodules` options. 
+
+
+The original readme is as follows
+
 # Livox ROS Driver 2
 
 Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended).
