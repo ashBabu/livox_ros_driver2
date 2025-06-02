@@ -1,5 +1,5 @@
 ### Main changes.
-This is a ROS2 Jazzy version compatible with `colcon build`. The `livox_sdk` is added as a submodule and can be pulled using the `--recurse-submodules` options. 
+This is a ROS2 Jazzy version compatible with `colcon build`. The `livox_sdk` is added as a submodule and can be pulled using the `git clone --recurse-submodules -b jazzy https://github.com/ashBabu/livox_ros_driver2.git` options. 
 
 
 The original readme is as follows
