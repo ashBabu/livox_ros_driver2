@@ -105,6 +105,9 @@ target_link_libraries(${PROJECT_NAME}
   ${PCL_LIBRARIES}
   ${APR_LIBRARIES}
 )
+rosidl_target_interfaces(${PROJECT_NAME}
+  ${LIVOX_INTERFACES} "rosidl_typesupport_cpp"
+)
 
 rclcpp_components_register_node(${PROJECT_NAME}
   PLUGIN "livox_ros::DriverNode"
